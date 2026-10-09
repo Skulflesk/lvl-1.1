@@ -2,7 +2,7 @@
 var canvas = document.getElementById("myCanvas");
 var context = canvas.getContext("2d");
 
-var x = 100;
+var x = 300;
 var y = 100;
 var radius = 30;
 
