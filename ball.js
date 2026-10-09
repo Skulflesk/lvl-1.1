@@ -16,8 +16,9 @@ function drawBall()
     context.beginPath();
     context.arc(x, y, radius, 0, 360 * Math.PI / 180, true);
     context.closePath();
-    context.fillStyle() = "red";
+    
     context.fill();
+    context.fillStyle() = "red";
 
 }
 
