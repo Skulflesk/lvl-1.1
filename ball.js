@@ -33,4 +33,4 @@ function drawBall()
 //     }
 // }
 
-// setInterval(drawBall, 20);
+setInterval(drawBall, 20);
