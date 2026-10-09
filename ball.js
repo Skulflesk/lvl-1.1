@@ -6,8 +6,8 @@ var x = 100;
 var y = 100;
 var radius = 30;
 
-var xSpeed = 3;
-var ySpeed = 2;
+// var xSpeed = 3;
+// var ySpeed = 2;
 
 function drawBall()
 {
@@ -17,9 +17,10 @@ function drawBall()
     context.arc(x, y, radius, 0, 360 * Math.PI / 180, true);
     context.closePath();
     context.fill();
+}
 
-    // x = x + xSpeed;
-    // y = y + ySpeed;
+//     x = x + xSpeed;
+//     y = y + ySpeed;
 
 //     if (x + radius > canvas.width || x - radius < 0)
 //     {
@@ -32,4 +33,4 @@ function drawBall()
 //     }
 // }
 
-setInterval(drawBall, 20);
+// setInterval(drawBall, 20);
