@@ -5,8 +5,8 @@ var x = 100;
 var y = 100;
 var radius = 30;
 
-var xSpeed = 10;
-var ySpeed = 10;
+var xSpeed = 3;
+var ySpeed = 2;
 
 function drawBall()
 {
